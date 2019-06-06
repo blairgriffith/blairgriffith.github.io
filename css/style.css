@@ -1,7 +1,19 @@
 body{
-    background-color: #eeccee;
+    
 }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18pt;
+    color: #cccccc;
+}
+nav a{
+    color: #ccffcc;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: rgb(46, 46, 46);
+    border-radius: 6px;
 }

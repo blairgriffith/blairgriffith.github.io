@@ -8,11 +8,12 @@ header{
 }
     h1{
         justify-self: left;
+        align-self: center;
         margin-left: 2%;
     }
     .section_links{
         display: flex;
-        
+        align-self: auto;
     }
 
 .portrait{

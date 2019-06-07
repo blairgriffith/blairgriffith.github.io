@@ -3,19 +3,25 @@ body{
     background-color: #cccccc;
 }
 h1{
-    font-size: 20pt;
-    /* font-weight: 200; */
-    letter-spacing: 2px;
-    color: #cccccc;
+    font-size: 40pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #2E2E2E;
 }
 nav a{
     color: #ccffcc;
     text-decoration: none;
 }
+.section_links{
+    font-size: 18pt;
+}
 nav a:hover{
     text-decoration: underline;
 }
 header{
-    background-color: rgb(46, 46, 46);
+    background-color: #2E2E2E;
     border-radius: 6px;
+}
+.portrait{
+    border: solid #2E2E2E;
 }

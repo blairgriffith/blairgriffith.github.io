@@ -1,8 +1,8 @@
 body{
     font-family: 'Thasadith', sans-serif;
-    background-color: #cccccc;
+    background-color: #ccc;
 }
-h1{
+h1, h2, h3{
     font-size: 40pt;
     font-weight: 700;
     letter-spacing: 1px;
@@ -12,16 +12,19 @@ nav a{
     color: #ccffcc;
     text-decoration: none;
 }
-.section_links{
+nav{
     font-size: 18pt;
 }
 nav a:hover{
     text-decoration: underline;
 }
-header{
+nav{
     background-color: #2E2E2E;
     border-radius: 6px;
 }
 .portrait{
     border: solid #2E2E2E;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }

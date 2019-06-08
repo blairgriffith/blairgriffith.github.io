@@ -1,43 +1,55 @@
-.container{
-    display: grid;
-    grid-template: 50px 1fr 75px/ 1fr;
+
+*{
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+html{
+    font-size: 16pt;
+    margin-top: 2em;
+}
+
+header,
+main,
+footer{
+    margin: 0 auto;
+    max-width: 900px;
 }
 header{
-    display: grid;
-    grid-template: 50px/1fr ;
-    /* margin-block-end: 1em; */
+    padding: 3em;
+}
+/*
+h1{
+    justify-self: center;
 }
 
-    .section_links{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .topofbody{
-        display: grid;
-        justify-content: center;
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-    .portrait{
-        
-        border-radius: 50%;
-        width: 400px;
-        height: 400px;
-        
-    }
-    h1{
-        justify-self: center;
-    }
-
-.sections{
+.about_me{
     display: grid;
-    grid-template: 1fr 1fr/ 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr;
     width: 100% auto;
 }
-    .about_me{
-        display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
-        width: 100% auto;
-    }
-    .
+.projects{
+    display: flex;
+}
+footer{
+    display: grid;
+    grid-template: 50px/1fr ;
+}
+*/
+nav{
+    position: fixed;
+    top: 3px;
+    left: 5px;
+    right: 5px;
+    padding: 0 auto;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    padding: 0.5em 2em;
+}
+

@@ -9,16 +9,36 @@ html{
     font-size: 16pt;
     margin-top: 2em;
 }
+body{
+    background-image: url(/images/background.png);
+    background-attachment: fixed;
+}
 
 header,
-main
+main,
+nav
 {
+    margin-bottom: 2em;
     margin: 0 auto;
-    max-width: 900px;
+    width: 95%;
 }
-header{
-    padding: 3em 0em;
+
+footer{
+    margin: 0 auto;
+    width: 95%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
 }
+footer h3{
+    grid-column-start: 2;
+    margin-left: 1em;
+}
+
 
 h1{
     padding: 0 auto;
@@ -34,28 +54,23 @@ ul{
     grid-template-rows: auto;
     grid-column-gap: 1em;
 }
-/*
-.about_me{
+.about{
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    padding: 2em;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2em;
     width: 100% auto;
 }
-.projects{
-    display: flex;
-}
-footer{
-    display: grid;
-    grid-template: 50px/1fr ;
-}
-*/
+
 nav{
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     margin: 0 auto;
+    margin-bottom: 2em;
     padding: 0 auto;
-    width: 95%;
     
     display: flex;
     justify-content: center;
@@ -64,8 +79,4 @@ nav{
 nav a{
     padding: 0.5em 2em;
 }
-footer{
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 95%;
-}
+

@@ -19,11 +19,11 @@ footer{
 header{
     padding: 3em;
 }
-/*
-h1{
-    justify-self: center;
-}
 
+h1{
+    padding: 0 auto;
+}
+/*
 .about_me{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -39,7 +39,7 @@ footer{
 */
 nav{
     position: fixed;
-    top: 3px;
+    top: 5px;
     left: 5px;
     right: 5px;
     padding: 0 auto;

@@ -11,8 +11,8 @@ html{
 }
 
 header,
-main,
-footer{
+main
+{
     margin: 0 auto;
     max-width: 900px;
 }
@@ -64,4 +64,8 @@ nav{
 nav a{
     padding: 0.5em 2em;
 }
-
+footer{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 95%;
+}

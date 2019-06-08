@@ -8,7 +8,7 @@ h1, h2, h3{
     color: #2E2E2E;
 }
 nav a{
-    color: #ccffcc;
+    color: #cfc;
     text-decoration: none;
 }
 nav{
@@ -27,4 +27,12 @@ nav{
     border-radius: 50%;
     width: 400px;
     height: 400px;
+}
+footer{
+    background-color: #2E2E2E;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+}
+footer h3{
+    color: #cfc;
 }

@@ -17,11 +17,22 @@ footer{
     max-width: 900px;
 }
 header{
-    padding: 3em;
+    padding: 3em 0em;
 }
 
 h1{
     padding: 0 auto;
+}
+
+ul{
+    margin-left: 2em;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
 }
 /*
 .about_me{
@@ -39,12 +50,13 @@ footer{
 */
 nav{
     position: fixed;
-    top: 5px;
-    left: 5px;
-    right: 5px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
     padding: 0 auto;
+    width: 95%;
     
-
     display: flex;
     justify-content: center;
     align-items: center;

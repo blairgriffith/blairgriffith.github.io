@@ -3,7 +3,6 @@ body{
     background-color: #ccc;
 }
 h1, h2, h3{
-    font-size: 40pt;
     font-weight: 700;
     letter-spacing: 1px;
     color: #2E2E2E;
@@ -20,7 +19,8 @@ nav a:hover{
 }
 nav{
     background-color: #2E2E2E;
-    border-radius: 6px;
+    border-bottom-left-radius:  15px;
+    border-bottom-right-radius: 15px;
 }
 .portrait{
     border: solid #2E2E2E;

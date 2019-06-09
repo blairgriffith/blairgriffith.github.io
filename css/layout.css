@@ -29,10 +29,56 @@ header{
 }
     header h1{
         margin-left: 0.5em;
+        padding: 0 auto;
     }
+    .about{
+        display: grid;
+        padding: 2em;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 2em;
+        width: 100% auto;
+    }
+    .bio{
+        align-self: center;
+    } 
 main h2{
     margin: 1em;
+    padding-top: 1em; 
 }
+main section p{
+    margin-left: 3em;
+    margin-right: 3em;
+
+}
+.projects{
+    max-width: 60%;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+.projects article{
+    background-color: #cfc;
+    flex-basis: 32%;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.projects article img{
+    width: 100%;
+    border: 1px solid #2e2e2e;
+}
+.projects article h4,h5{
+    margin: 0.5em 1em;
+}
+
+ul{
+    margin-left: 2em;
+}
+
 footer{
     margin: 0 auto;
     height: 3em;
@@ -43,10 +89,20 @@ footer{
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    align-items: center;
+    grid-template-rows: 1fr;
+    align-content: center;
+    grid-column-gap: 2em;
 }
     footer h3{
         margin-left: 1em;
+        align-self: center;
+    }
+    footer img{
+        align-self: center;
+        width: 30px;
+    }
+    footer a, span{
+        align-self: center;
     }
 nav{
     position: fixed;
@@ -66,47 +122,11 @@ nav{
     }
 
 
-.projects{
-    max-width: 60%;
-    margin: 0 auto;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
-    justify-content: center;
-}
-    .projects article{
-        background-color: #cfc;
-        border-radius: 3px;
-        padding: 1em;
-    }
-    .projects article img{
-        width: 100%;
-    }
-    .projects h4,h5{
-        color: #2e2e2e;
-    }
 
-.about{
-    display: grid;
-    padding: 2em;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 2em;
-    width: 100% auto;
-}
-.bio{
-    align-self: center;
-} 
 
-h1{
-    padding: 0 auto;
-}
 
-ul{
-    margin-left: 2em;
-}
+
 
 
 

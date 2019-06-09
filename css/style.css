@@ -10,7 +10,7 @@ h1, h2, h3{
     letter-spacing: 1px;
     color: #cfc;
 }
-nav a{
+a{
     color: #cfc;
     text-decoration: none;
 }
@@ -45,4 +45,7 @@ footer{
 }
 h3{
     color: #cfc;
+}
+.projects h4,h5{
+    color: #2e2e2e;
 }

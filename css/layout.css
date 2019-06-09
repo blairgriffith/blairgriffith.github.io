@@ -22,9 +22,12 @@ nav
     margin: 0 auto;
     width: 95%;
 }
-
+header{
+    margin-top: 2em;
+}
 footer{
     margin: 0 auto;
+    height: 3em;
     width: 95%;
     position: fixed;
     bottom: 0px;
@@ -32,10 +35,10 @@ footer{
     right: 0px;
 
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
 }
 footer h3{
-    grid-column-start: 2;
     margin-left: 1em;
 }
 
@@ -49,10 +52,14 @@ ul{
 }
 
 .projects{
+    max-width: 60%;
+    margin: 0 auto;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 1em;
+    justify-content: center;
 }
 .about{
     display: grid;

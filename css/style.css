@@ -34,7 +34,8 @@ main{
 }
 .portrait{
     border-radius: 50%;
-    width: 250px;
+    width: 20vw;
+    max-width: 250px;
 
 }
 footer{

@@ -5,10 +5,12 @@
     margin: 0;
     padding: 0;
 } 
+
 html{
     font-size: 16pt;
     margin-top: 2em;
 }
+
 body{
     background-image: url(/images/background.png);
     background-attachment: fixed;
@@ -18,58 +20,34 @@ header,
 main,
 nav
 {
-    margin-bottom: 2em;
     margin: 0 auto;
+    margin-bottom: 2em;
     width: 95%;
 }
 header{
     margin-top: 2em;
 }
+    header h1{
+        margin-left: 0.5em;
+    }
+main h2{
+    margin: 1em;
+}
 footer{
     margin: 0 auto;
     height: 3em;
     width: 95%;
-    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
 }
-footer h3{
-    margin-left: 1em;
-}
-
-
-h1{
-    padding: 0 auto;
-}
-
-ul{
-    margin-left: 2em;
-}
-
-.projects{
-    max-width: 60%;
-    margin: 0 auto;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
-    justify-content: center;
-}
-.about{
-    display: grid;
-    padding: 2em;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 3fr;
-    grid-gap: 2em;
-    width: 100% auto;
-}
-
+    footer h3{
+        margin-left: 1em;
+    }
 nav{
     position: fixed;
     top: 0px;
@@ -83,7 +61,52 @@ nav{
     justify-content: center;
     align-items: center;
 }
-nav a{
-    padding: 0.5em 2em;
+    nav a{
+        padding: 0.5em 2em;
+    }
+
+
+.projects{
+    max-width: 60%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+    justify-content: center;
 }
+    .projects article{
+        background-color: #cfc;
+        border-radius: 3px;
+        padding: 1em;
+    }
+    .projects article img{
+        width: 100%;
+    }
+    .projects h4,h5{
+        color: #2e2e2e;
+    }
+
+.about{
+    display: grid;
+    padding: 2em;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2em;
+    width: 100% auto;
+}
+.bio{
+    align-self: center;
+} 
+
+h1{
+    padding: 0 auto;
+}
+
+ul{
+    margin-left: 2em;
+}
+
+
 

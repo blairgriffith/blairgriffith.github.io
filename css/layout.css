@@ -132,7 +132,6 @@ nav{
 }
 
 #box{
-    
         padding: 2em;
         width: 80%;
         background-color: #2e2e2e;
@@ -143,7 +142,27 @@ nav{
 
 #closebutton{
     float: right;
+    top: 0;
     color: #cfc;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: right;
+}
+#closebutton:hover,
+#closebutton:focus {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project{
+    display: grid;
+}
+
+.detail{
+    width: 60%;
+    margin: 0 auto;
 }
 
 

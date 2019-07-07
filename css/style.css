@@ -48,3 +48,14 @@ h3{
 .projects h4,h5{
     color: #2e2e2e;
 }
+
+.detail{
+    padding: 2px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 5px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 16px;
+    color: #cfc;
+    background-color: #2E2E2E;
+}

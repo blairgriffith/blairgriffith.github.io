@@ -4,11 +4,11 @@ console.log(projects.length)
 
 function getBox() {
     var contentlist = [
-        'Virtual Pet is a console-based application that simulates a simple pet shelter. The user can add pets of two types (organic or robotic), each of which has a set of stats that correspond to its wellbeing. Users can then care for the pets in a variety of ways, affecting the stats of one or multiple pets.'
+        'This blogging website is designed around gardening. Users can select a category of plant to write a post about, and then write, edit, view, and delete posts.'
         ,
-        'University Clinic Hospital is a console-based application that simulates a simple hospital staff and patient manager. The user can pay employees, choose medical employees to perform patient-related tasks, and list all employees or patients.'
+        'HeroMatch is an SPA web application designed to help new players choose characters in online video games that suit their experience and interests. Final project for WeCanCodeIt.'
         ,
-        'Code Business Site is a single-page website utilizing HTML, CSS, Grid, and Flexbox to display a information for a fictional tech company.'
+        'Drip is a fictional coffee shop with a heavy metal theme. This application helps baristas at Drip manage the store\'s music collection.'
         ]
     var boxbg = document.getElementById('boxbg');
     var box = document.getElementById('box');

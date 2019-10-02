@@ -1,6 +1,8 @@
 body{
     font-family: 'Thasadith', sans-serif;
     background-color: #ccc;
+    margin: 0;
+    padding: 0;
 }
 html{
     color: #cfc;
@@ -10,6 +12,12 @@ h1, h2, h3{
     letter-spacing: 1px;
     color: #cfc;
 }
+
+h2{
+    width: 95%;
+    text-align: center;
+}
+
 a{
     color: #cfc;
     text-decoration: none;
@@ -47,6 +55,10 @@ h3{
 }
 .projects h4,h5{
     color: #2e2e2e;
+}
+
+h4{
+    font-size: 19px;
 }
 
 .detail{
